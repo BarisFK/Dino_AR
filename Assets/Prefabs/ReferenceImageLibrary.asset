@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4791715464921291106
+  m_GuidHigh: 704658988409526152
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5561240662728747795
+      m_GuidHigh: 8426445969240814485
+    m_SerializedTextureGuid:
+      m_GuidLow: 3189810135849884808
+      m_GuidHigh: 9733016420119575737
+    m_Size: {x: 0.3, y: 0.3}
+    m_SpecifySize: 1
+    m_Name: Trex
+    m_Texture: {fileID: 2800000, guid: 1045dc887b6b2c44b97c45cadd9e1287, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5573148500096062441
+      m_GuidHigh: 3862059156998871699
+    m_SerializedTextureGuid:
+      m_GuidLow: 4392332487133847974
+      m_GuidHigh: 4486308713655571032
+    m_Size: {x: 0.3, y: 0.20185548}
+    m_SpecifySize: 1
+    m_Name: Pterodactyl
+    m_Texture: {fileID: 2800000, guid: 1f0561a6b3203cf458122e6e0192423e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5507426573018281619
+      m_GuidHigh: 16326289913928622733
+    m_SerializedTextureGuid:
+      m_GuidLow: 4329329118045219378
+      m_GuidHigh: 13982163387866298299
+    m_Size: {x: 0.3, y: 0.1668}
+    m_SpecifySize: 1
+    m_Name: Triceratops
+    m_Texture: {fileID: 2800000, guid: 24d72a32dde53c14bb373e45859f0ac2, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5027927375124650821
+      m_GuidHigh: 18325049523452795290
+    m_SerializedTextureGuid:
+      m_GuidLow: 7504346010504804341
+      m_GuidHigh: 10969229003511039834
+    m_Size: {x: 0.3, y: 0.1880625}
+    m_SpecifySize: 1
+    m_Name: Mammoth
+    m_Texture: {fileID: 2800000, guid: d3c237f5caef68245a073046a9873a98, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5328345265107508169
+      m_GuidHigh: 8228532155540631739
+    m_SerializedTextureGuid:
+      m_GuidLow: 14948597181499782960
+      m_GuidHigh: 5869896887594231690
+    m_Size: {x: 0.3, y: 0.20009767}
+    m_SpecifySize: 1
+    m_Name: Stegosaurus
+    m_Texture: {fileID: 2800000, guid: 7db3373015efcf748aa739851e107651, type: 3}
