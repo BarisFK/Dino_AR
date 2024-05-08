@@ -1,41 +1,29 @@
-# Dino_AR Unity AR Görüntü Takip Projesi
+# Dino_AR Unity AR Image Tracking Project
 
-## Genel Bakış
+## Overview
 
-Bu Unity projesi, AR Foundation kullanarak artırılmış gerçeklik deneyimleri için görüntü takibi uygular. Uygulama, belirlenmiş dinozor görüntülerini algılar ve bu görüntülere uygun 3D dinozor modellerini ve bilgilendirici metinleri gösterir.
+This Unity project implements image tracking for augmented reality experiences using AR Foundation. The application detects specified dinosaur images and displays corresponding 3D dinosaur models and informative text.
 
-## Özellikler
+## Features
 
-- **Görüntü Takibi:** Uygulama, AR Foundation kullanarak gerçek dünyadaki belirlenmiş görüntüleri takip eder.
-- **Prefab Oluşturma:** Takip edilen görüntülerle ilişkilendirilmiş 3D modeller AR ortamında oluşturulur.
-- **Metin Gösterimi:** Takip edilen görüntülerle ilgili bilgiler, dinamik olarak oluşturulan TextMesh bileşenleri aracılığıyla gösterilir.
+- **Image Tracking:** The application tracks specified images in the real world using AR Foundation.
+- **Prefab Creation:** 3D models associated with tracked images are instantiated in the AR environment.
+- **Text Display:** Information related to tracked images is displayed dynamically through TextMesh components.
 
-## Ön Koşullar
+## Prerequisites
 
-- Unity 3D (sürüm x.x.x)
-- AR Foundation Paketi
-- AR Subsystems Paketi
-- Uyumlu AR cihazı (Android için ARCore)
+- Unity 3D (version x.x.x)
+- AR Foundation Package
+- AR Subsystems Package
+- Compatible AR device (ARCore for Android)
 
-## Başlarken
+## Project Structure
 
-1. Depoyu klonlayın veya indirin.
-2. Projeyi Unity'de açın.
-3. AR Foundation ve AR Subsystems paketlerinin yüklü olduğundan emin olun.
-4. Uyumlu bir AR cihazı bağlayın.
-5. Uygulamayı AR cihazında derleyin ve çalıştırın.
+- **Scripts:** Contains C# scripts for image tracking and AR interaction.
+- **Prefabs:** Stores 3D models and associated UI elements.
 
-## Proje Yapısı
+## Usage
 
-- **Scripts:** Görüntü takibi ve AR etkileşimi için C# script'leri içerir.
-- **Prefabs:** 3D modelleri ve ilişkili UI öğelerini depolar.
-
-## Kullanım
-
-1. Uygulamayı uyumlu bir AR cihazında başlatın.
-2. Cihazın kamerasını belirlenmiş olan dinozor görüntülerine yönlendirin.
-3. Uygulama, ilgili 3D modelleri ve ek bilgileri algılar ve görüntüler.
-
-## Teşekkürler
-
-AR Foundation ve AR Subsystems için [Unity Technologies](https://unity.com/) ekibine özel teşekkürler.
+1. Launch the application on a compatible AR device.
+2. Point the device's camera towards the specified dinosaur images.
+3. The application detects relevant 3D models and additional information and displays them.
