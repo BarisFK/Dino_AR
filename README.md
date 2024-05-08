@@ -1,4 +1,4 @@
-# Dino_AR Unity AR Image Tracking Project
+# About Dino_AR 
 
 ## Overview
 
